@@ -8,8 +8,7 @@
 
 You're going to Springify a currency converter app. That is, you're going to have Spring instantiate and manage beans whose function it is to convert a monetry value from one currency to another. In this version, you're going to configure the bean container using a Java class.
 
-Clone this repo to get started: 
-https://github.com/stubailey18/stayahead.spring_essentials.ioc_and_di.currency_converter_java_config.git
+[Download this project](spring-essentials_assignments_ioc-and-di_currency-converter-java-config.zip) to get started. 
 
 The CurrencyConverter class looks like this:
 

@@ -1,4 +1,4 @@
-<img src="content/stayahead.png" />
+<img src="https://github.com/stayahead-training/shared/blob/master/stayahead.png" />
 
 # Spring Essentials
 

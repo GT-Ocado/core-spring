@@ -1,4 +1,4 @@
-<img src="../../../stayahead.png" />
+<img src="https://github.com/stayahead-training/shared/blob/master/stayahead.png" />
 
 # IoC and DI Assignment
 

@@ -1,15 +1,14 @@
-<img src="../../../../stayahead.png" />
+<img src="../../../stayahead.png" />
 
 # IoC and DI Assignment
 
 ## Currency Converter (XML Config)
 
-[<< back](../../../#2-ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)
 
 You're going to Springify a currency converter app. That is, you're going to have Spring instantiate and manage beans whose function it is to convert a monetry value from one currency to another. In this version, you're going to configure the bean container using an XML file.
 
-Clone this repo to get started: 
-https://github.com/stubailey18/stayahead.spring_essentials.ioc_and_di.currency_converter_xml_config.git
+Download this project to get started. 
 
 The CurrencyConverter class looks like this:
 
@@ -65,9 +64,7 @@ public class App {
     <summary>Show me</summary>
 
     ```xml
-    <bean 
-      class="com.stayahead.springessentials.iocanddi.beans.CurrencyConverter" 
-      id="currencyConverter">
+    <bean class="main.beans.CurrencyConverter" id="currencyConverter">
       <constructor-arg name="baseCurrency" value="GBP" />
     </bean>
     ```
@@ -148,19 +145,14 @@ Let's extract the obtaining of the exchange rate into a separate bean.
 	<summary>Show me</summary>
 
 	```xml
-	<bean 
-	  class="com.stayahead.springessentials.iocanddi.currencyconverter.beans.CurrencyConverter" 
-	  id="currencyConverter"
-	  autowire="constructor">
+	<bean class="main.beans.CurrencyConverter" id="currencyConverter" autowire="constructor">
 	  <constructor-arg name="baseCurrency" value="GBP" />
 	</bean>
 	
-	<bean 
-	  class="com.stayahead.springessentials.iocanddi.currencyconverter.beans.ExchangeRateService"
-	  id="exchangeRateService" />
+	<bean class="main.beans.ExchangeRateService" id="exchangeRateService" />
 	```
 </details>
 
 4. Run it!
 
-[<< back](../../../#2-ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)

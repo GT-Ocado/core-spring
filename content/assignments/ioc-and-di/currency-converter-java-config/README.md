@@ -4,7 +4,7 @@
 
 ## Currency Converter (Java Config)
 
-[<< back](../../../../#ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)
 
 You're going to Springify a currency converter app. That is, you're going to have Spring instantiate and manage beans whose function it is to convert a monetry value from one currency to another. In this version, you're going to configure the bean container using a Java class.
 
@@ -159,4 +159,4 @@ Let's extract the obtaining of the exchange rate into a separate bean.
 
 4. Run it!
 
-[<< back](../../../../#ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)

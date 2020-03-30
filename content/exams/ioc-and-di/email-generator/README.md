@@ -1,14 +1,14 @@
-<img src="../../../../stayahead.png" />
+<img src="../../../stayahead.png" />
 
 # IoC and DI Exam
 
 ## Email Generator
 
-[<< back](../../../#ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)
 
 Your task is to build an app with Spring-managed beans that generates emails from data in a CSV file. You may use whichever means (or combination of means) of configuring the Spring beans you choose.
 
-NB: name the project **spring-essentials.ioc-and-di.exams.email-generator.&lt;your-name&gt;** and push it to the [stayahead-delegate repo](https://github.com/stubailey18/stayahead-delegate.git) so that you can discuss it with your trainer during and after the course.
+NB: name the project **spring-essentials_exams_ioc-and-di_email-generator**.
 
 Let's assume a CSV file that looks like this:
 
@@ -46,4 +46,4 @@ sender.send(message);
 
 Try to design the app such that it comprises **at least two** reusable components.
 
-[<< back](../../../#ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)

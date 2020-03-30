@@ -1,13 +1,14 @@
+<img src="../../../stayahead.png" />
+
 # IoC and DI Assignment
 
 ## Currency Converter (Component Scanning and Properties)
 
-[<< back](../../../#2-ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)
 
 You're going to Springify a currency converter app. That is, you're going to have Spring instantiate and manage beans whose function it is to convert a monetry value from one currency to another. In this version, you're going to configure the bean container using component scanning and a properties file.
 
-Clone this repo to get started: 
-https://github.com/stubailey18/stayahead.spring_essentials.ioc_and_di.currency_converter_comp_scan_and_props.git
+Download this project to get started.
 
 The CurrencyConverter class looks like this:
 
@@ -56,4 +57,4 @@ public class App {
 
 TODO
 
-[<< back](../../../#2-ioc-and-di)
+[<< back](../../../../README.md#ioc-and-di)

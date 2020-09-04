@@ -8,7 +8,7 @@ At the time of writing IntelliJ Community Edition doesn't support server integra
 
 To make use of the Maven Tomcat plugin add the following to the app's POM:
 
-'''xml
+```xml
 <build>
   <plugins>
     <plugin>
@@ -18,7 +18,7 @@ To make use of the Maven Tomcat plugin add the following to the app's POM:
     </plugin>
   </plugins>
 </build>
-'''
+```
 
 Then execute the tomcat7:run goal to spin up your web app on the embedded Tomcat instance.
 

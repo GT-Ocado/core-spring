@@ -82,7 +82,7 @@ Tomcat 7 is an old version (servlet spec 3.0; JSP spec 2.2 etc.) and will fall o
    $> <tomcat_home>/bin/startup.bat (or startup.sh on Linux/Mac)
    ```
    
-6. Make sure that you can access Tomcat's Manager GUI at localhost:8080/manager using the credentials you specified in tomcat-users.xml.
+6. Make sure that you can access Tomcat's Manager GUI at `localhost:8080/manager` using the credentials you specified in `tomcat-users.xml`.
 
 7. Execute the `tomcat7:deploy` goal to deploy your web app on the local Tomcat instance.
 
@@ -95,3 +95,5 @@ Tomcat 7 is an old version (servlet spec 3.0; JSP spec 2.2 etc.) and will fall o
    ```
    $> mvn tomcat7:redeploy
    ```
+
+NB: I have yes to test this with Spring 5 and **Java 11**.

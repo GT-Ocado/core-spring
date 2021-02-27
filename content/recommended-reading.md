@@ -1,6 +1,6 @@
 <img src="https://github.com/stayahead-training/shared/blob/master/stayahead.png" />
 
-# Recommended Reading for Spring Essentials
+# Recommended Reading for Core Spring
 
 [<< back](../README.md)
 

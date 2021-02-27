@@ -1,124 +1,181 @@
 <img src="https://github.com/stayahead-training/shared/blob/master/stayahead.png" />
 
-# Spring Essentials
+# Core Spring
 
 > [Introduction](#introduction)<br />
-  [IoC and DI](#ioc-and-di)<br />
-  [SpEL](#spel)<br />
-  [AOP](#aop)<br />
-  [JPA with Hibernate](#jpa-with-hibernate)<br />
-  [REST APIs](#rest-apis)<br />
-  [WebFlux](#webflux)<br />
-  [JMS](#jms)<br />
-  [Security](#security)
+  [Inversion of Control (IoC) and Dependency Injection (DI)](#ioc-and-di)<br />
+  [Container Configuration](#container-configuration)<br />
+  [Validation and Spring Expression Language (SpEL)](#validation-and-spel)<br />
+  [Aspect Oriented Programming (AOP)](#aop)<br >
+  [Testing](#testing)<br />
+  [Transaction Management](#transaction-management)<br />
+  [Accessing Data and JDBC](#accessing-data-and-jdbc)<br />
+  [Object Relational Mapping](#object-relational-mapping)<br />
+  [Spring Data JPA](#spring-data-jpa)<br />
+  [Spring Web MVC and REST](#spring-web-mvc-and-rest)<br />
+  [Spring Security](#spring-security)<br />
 
 ## Introduction
 
 [Recommended reading](content/recommended-reading.md#introduction)
 
 - What is Spring?
-- What is it for?
+- A short history of the framework
+- The design philosophy
+- Getting started
+- Logging
 
-## IoC and DI
+## Inversion of Control (IoC) and Dependency Injection (DI)
 
 [Recommended reading](content/recommended-reading.md#ioc-and-di)
 
 - What is IoC?
-- What is a Spring Bean?
+- What is a Spring bean?
+- The Spring IoC container
+- Container configuration (briefly)
+- Instantiating a container
+- Obtaining a bean from the container
 - What is DI?
-- **Code it: one or more apps with Spring-managed beans**
-  - **XML and Java config**
-  - **Autowiring**
-  - **Component scanning**
-  - **Properties files**
-  - **Qualifiers**
-  - **Bean lifecycle methods**
-- **[Assignment: currency converter (Java config)](content/assignments/ioc-and-di/currency-converter-java-config)**
-- **[Exam: email generator](content/exams/ioc-and-di/email-generator)**
+- Resolving dependencies with Spring DI
 
-## SpEL
+## Container Configuration
 
-[Recommended reading](content/recommended-reading.md#spel)
+[Recommended reading](content/recommended-reading.md#container-configuration)
 
-TODO
+- Java-based containter configuration
+  - @Configuration
+  - @Bean
+- Annotation-based container configuration
+  - Stereotypes
+  - Component scanning
+  - Autowiring
+  - Handling multiple candidate beans
+  - Using JSR annotations
+  - Injecting values
+- Bean scoping
+- Acting on a bean's lifecycle events
+- Grouping beans into profiles
+- Externalising properties
 
-## AOP
+## Validation and Spring Expression Language (SpEL)
+
+[Recommended reading](content/recommended-reading.md#validation-and-spel)
+
+- Validating with Spring's Validator interface
+- Validating with Java Bean Validation
+- Data binding
+- Converting and formatting (briefly)
+- What is SpEL?
+- SpEL expressions
+- Evaluating expressions
+- Using expressions in bean definitions
+
+## Aspect Oriented Programming (AOP)
 
 [Recommended reading](content/recommended-reading.md#aop)
 
-- What is AOP?
-- What is an aspect?
-- What is advice?
-- What are the different types of advice?
-- What is a joinpoint?
-- What is a pointcut?
-- **Code it: one or more apps using Spring AOP to separate cross-cutting concerns from business logic**
-  - **The advised bean**
-  - **The aspect and the advice**
-  - **The AOP config**
-  - **Pointcut expressions**
-- **[Assignment: TODO](#)**
+- What is AOP? 
+- AOP proxies
+- Spring and @AspectJ
+- Declaring an aspect
+- Declaring a pointcut
+- Constructing pointcut expressions
+- Declaring advice
+- Making use of the JoinPoint
 
-## JPA with Hibernate
+## Testing
 
-[Recommended reading](content/recommended-reading.md#jpa-with-hibernate)
+[Recommended reading](content/recommended-reading.md#testing)
+
+- Spring integration testing with JUnit (4 or 5)
+- Loading and configuring the container
+- Setting the active profile(s) and property source(s)
+- Handling a dirty context
+
+## Transaction Management
+
+[Recommended reading](content/recommended-reading.md#transaction-management)
+
+- Spring's transaction abstraction
+- Configuring the data source and transaction manager
+- Declarative transaction management
+- Programmatic transaction management
+- Choosing between the approaches
+
+## Accessing Data and JDBC
+
+[Recommended reading](content/recommended-reading.md#accessing-data-and-jdbc)
+
+- Exception translation
+- Annotating DAOs with @Repository
+- Implementing a DAO using JdbcTemplate
+
+## Object Relational Mapping (ORM)
+
+[Recommended reading](content/recommended-reading.md#orm)
 
 - What is ORM?
-- What is JPA?
 - What is Hibernate?
-- **Code it: a Spring app that persists data using Hibernate**
-  - **Data source and JPA beans config**
-  - **The entity bean incl. JPA annotations**
-  - **The repository/DAO**
-    - **EntityManager injection**
-    - **Persist, merge, remove, and find**
-    - **JPQL**
-  - **Transaction management**
-- **[Assignment: TODO](#)**
-- **Code it: a Spring Data JPA repository**
+- Configuring the session factory
+- Implementing a DAO using Hibernate
+- What is JPA?
+- Configuring the entity manager factory
+- Implementing a DAO using JPA
 
-## REST APIs
+## Spring Data JPA
 
-[Recommended reading](content/recommended-reading.md#rest-apis)
+[Recommended reading](content/recommended-reading.md#spring-data-jpa)
 
-- What is a REST API?
-- **Code it: a Spring REST API**
-  - **Dispatcher servlet + contexts config**
-  - **The model**
-  - **The controller**
-    - **Request mapping**
-    - **Path variables**
-    - **Query parameters**
-    - **The request body**
-    - **Message conversion (JSON)**
-    - **Response entities**
-    - **Validation**
-    - **Exception handling**
-- **[Assignment: TODO](#)**
-- **Code it: REST API client**
+- Spring Data Repositories
+- Configuring JPA repos
+- Persisting entities
+- Query methods
+  - Derived queries
+  - @Query
+  - Paging and sorting
+  - @EntityGraph
+  - Projections
+- Building queries programmatically
+- Transactionality
 
-## WebFlux
+## Spring Web MVC and REST
 
-[Recommended reading](content/recommended-reading.md#webflux)
+[Recommended reading](content/recommended-reading.md#spring-web-mvc-and-rest)
 
-TODO
+- Initialising a Spring web app
+  - DispatcherServlet
+  - The context heirarchy
+  - @Controller and @RequestMapping
+- Customising the MVC config
+  - Type conversion
+  - Message conversion
+  - Validation
+  - Interception
+  - View resolution
+  - Exception resolution
+- Controller advice
+- Request mapping
+- Handler methods
+  - Parameters and return values
+  - Handler method annotations
+- Putting it all together to create a REST API
+- Testing a Spring web application
+- Building an API client using RestTemplate
 
-## JMS
+## Spring Security
 
-[Recommended reading](content/recommended-reading.md#jms)
+[Recommended reading](content/recommended-reading.md#spring-security)
 
-TODO
-
-## Security
-
-[Recommended reading](content/recommended-reading.md#security)
-
-- What is authentication?
-- What is authorisation?
-- **Code it: a secure Spring REST API**
-  - **Dispatcher servlet + contexts config**
-  - **Security filter chain config (minimal)**
-  - **Custom authentication provider**
-  - **Exression-based access control**
-  - **CSRF protection**
-- **[Assignment: TODO](#)**
+- Initialising a secure Spring web app
+  - DelegatingFilterProxy
+  - SecurityFilterChain
+  - Security filters
+- Spring Security architecture components
+- Username/password authentication
+- Basic authentication flow
+- Building a custom UserDetailsService
+- Password encoding
+- Authorising requests with FilterSecurityInterceptor
+- SpEL-based access control
+- Method-level authorisation
+- Testing a secure Spring web application

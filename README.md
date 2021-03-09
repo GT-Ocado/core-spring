@@ -14,6 +14,7 @@
   [Spring Data JPA](#spring-data-jpa)<br />
   [Spring Web MVC and REST](#spring-web-mvc-and-rest)<br />
   [Spring Security](#spring-security)<br />
+  [Spring Boot](#spring-boot)
 
 ## Introduction
 
@@ -179,3 +180,17 @@
 - SpEL-based access control
 - Method-level authorisation
 - Testing a secure Spring web application
+
+## Spring Boot
+
+[Recommended reading](content/recommended-reading.md#spring-boot)
+
+- What is Spring Boot?
+- Spring Boot features
+- Getting started
+- Starter dependencies
+- Auto-configuration
+- Overriding auto-configuration
+- Using the ApplicationRunner/CommandLineRunner
+- Spring Boot Actuator
+- Testing a Spring Boot application

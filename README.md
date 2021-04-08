@@ -14,7 +14,7 @@
   [Web Apps with Spring Web MVC](#web-apps-with-spring-web-mvc)<br />
   [REST APIs with Spring Web MVC](#rest-apis-with-spring-web-mvc)<br />
   [Securing an App with Spring Security](#securing-an-app-with-spring-security)<br />
-  [Spring Boot Actuator](#spring-boot-actuator)
+  [Monitoring and Management with Spring Boot Actuator](#monitoring-and-management-with-spring-boot-actuator)
 
 ## Introduction to Spring and Inversion of Control
 
@@ -138,13 +138,14 @@
 - Configuring authorisation at the method level
 - Configuring Spring Security with Spring/Spring Boot
 
-## Spring Boot Actuator
+## Monitoring and Management with Spring Boot Actuator
 
 [Recommended reading](content/recommended-reading.md#spring-boot-actuator)
 
 - About the actuator
 - Exposing endpoints
 - Writing custom endpoints
+- Dealing with metrics
 - Health indicators
 - Writing custom health indicators
-- Monitoring and management
+- Monitoring and management over HTTP & JMX

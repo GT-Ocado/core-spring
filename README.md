@@ -2,93 +2,66 @@
 
 # Core Spring
 
-> [Introduction](#introduction)<br />
-  [Inversion of Control (IoC) and Dependency Injection (DI)](#ioc-and-di)<br />
-  [Container Configuration](#container-configuration)<br />
-  [Validation and Spring Expression Language (SpEL)](#validation-and-spel)<br />
-  [Aspect Oriented Programming (AOP)](#aop)<br >
+> [Introduction to Spring and Inversion of Control](#introduction-to-spring-and-inversion-of-control)<br />
+  [Annotation-based Container Configuration and Dependency Injection](#annotation-based-container-configuration-and-dependency-injection)<br />
+  [More Container Configuration](#more-container-configuration)<br />
+  [Aspect Oriented Programming](#aspect-oriented-programming)<br >
   [Testing](#testing)<br />
   [Transaction Management](#transaction-management)<br />
   [Accessing Data and JDBC](#accessing-data-and-jdbc)<br />
-  [Object Relational Mapping](#object-relational-mapping)<br />
-  [Spring Data JPA](#spring-data-jpa)<br />
-  [Spring Web MVC and REST](#spring-web-mvc-and-rest)<br />
-  [Spring Security](#spring-security)<br />
-  [Spring Boot](#spring-boot)
+  [Minimising Configuration with Spring Boot](#minimising-configuration-with-spring-boot)<br />
+  [Data Persistence with Spring Data JPA](#data-persistence-with-spring-data-jpa)<br />
+  [Web Apps with Spring Web MVC](#web-apps-with-spring-web-mvc)<br />
+  [REST APIs with Spring Web MVC](#rest-apis-with-spring-web-mvc)<br />
+  [Securing an App with Spring Security](#securing-an-app-with-spring-security)<br />
+  [Spring Boot Actuator](#spring-boot-actuator)
 
-## Introduction
+## Introduction to Spring and Inversion of Control
 
-[Recommended reading](content/recommended-reading.md#introduction)
+[Recommended reading](content/recommended-reading.md#introduction-to-spring-and-inversion-of-control)
 
-- What is Spring?
-- A short history of the framework
-- The design philosophy
-- Getting started
-- Logging
-
-## Inversion of Control (IoC) and Dependency Injection (DI)
-
-[Recommended reading](content/recommended-reading.md#ioc-and-di)
-
-- What is IoC?
-- What is a Spring bean?
+- About Spring
+- Inversion of Control
 - The Spring IoC container
-- Container configuration (briefly)
-- Instantiating a container
-- Obtaining a bean from the container
-- What is DI?
-- Resolving dependencies with Spring DI
+- Spring beans
+- Configuring the container
+- Instantiating a container and obtaining beans
 
-## Container Configuration
+## Annotation-based Container Configuration and Dependency Injection
 
-[Recommended reading](content/recommended-reading.md#container-configuration)
+[Recommended reading](content/recommended-reading.md#annotation-based-container-configuration-and-dependency-injection)
 
-- Java-based containter configuration
-  - @Configuration
-  - @Bean
-- Annotation-based container configuration
-  - Stereotypes
-  - Component scanning
-  - Autowiring
-  - Handling multiple candidate beans
-  - Using JSR annotations
-  - Injecting values
-- Bean scoping
+- Classpath scanning and managed components 
+- Dependency injection
+- Autowiring
+- Handling multiple candidate dependencies
+- Java configuration vs. annotations, and mixing
+
+## More Container Configuration
+
+[Recommended reading](content/recommended-reading.md#more-container-configuration)
+
 - Acting on a bean's lifecycle events
+- Specifying the scope of a bean
+- Composing configurations
 - Grouping beans into profiles
 - Externalising properties
+- Environment abstraction
+- Spring Expression Language (SpEL)
 
-## Validation and Spring Expression Language (SpEL)
-
-[Recommended reading](content/recommended-reading.md#validation-and-spel)
-
-- Validating with Spring's Validator interface
-- Validating with Java Bean Validation
-- Data binding
-- Converting and formatting (briefly)
-- What is SpEL?
-- SpEL expressions
-- Evaluating expressions
-- Using expressions in bean definitions
-
-## Aspect Oriented Programming (AOP)
+## Aspect Oriented Programming
 
 [Recommended reading](content/recommended-reading.md#aop)
 
-- What is AOP? 
-- AOP proxies
-- Spring and @AspectJ
-- Declaring an aspect
-- Declaring a pointcut
+- About AOP and proxying
 - Constructing pointcut expressions
-- Declaring advice
-- Making use of the JoinPoint
+- Advising the target object
 
 ## Testing
 
 [Recommended reading](content/recommended-reading.md#testing)
 
-- Spring integration testing with JUnit (4 or 5)
+- Spring integration testing with JUnit
 - Loading and configuring the container
 - Setting the active profile(s) and property source(s)
 - Handling a dirty context
@@ -111,86 +84,67 @@
 - Annotating DAOs with @Repository
 - Implementing a DAO using JdbcTemplate
 
-## Object Relational Mapping (ORM)
-
-[Recommended reading](content/recommended-reading.md#orm)
-
-- What is ORM?
-- What is Hibernate?
-- Configuring the session factory
-- Implementing a DAO using Hibernate
-- What is JPA?
-- Configuring the entity manager factory
-- Implementing a DAO using JPA
-
-## Spring Data JPA
-
-[Recommended reading](content/recommended-reading.md#spring-data-jpa)
-
-- Spring Data Repositories
-- Configuring JPA repos
-- Persisting entities
-- Query methods
-  - Derived queries
-  - @Query
-  - Paging and sorting
-  - @EntityGraph
-  - Projections
-- Building queries programmatically
-- Transactionality
-
-## Spring Web MVC and REST
-
-[Recommended reading](content/recommended-reading.md#spring-web-mvc-and-rest)
-
-- Initialising a Spring web app
-  - DispatcherServlet
-  - The context heirarchy
-  - @Controller and @RequestMapping
-- Customising the MVC config
-  - Type conversion
-  - Message conversion
-  - Validation
-  - Interception
-  - View resolution
-  - Exception resolution
-- Controller advice
-- Request mapping
-- Handler methods
-  - Parameters and return values
-  - Handler method annotations
-- Putting it all together to create a REST API
-- Testing a Spring web application
-- Building an API client using RestTemplate
-
-## Spring Security
-
-[Recommended reading](content/recommended-reading.md#spring-security)
-
-- Initialising a secure Spring web app
-  - DelegatingFilterProxy
-  - SecurityFilterChain
-  - Security filters
-- Spring Security architecture components
-- Username/password authentication
-- Basic authentication flow
-- Building a custom UserDetailsService
-- Password encoding
-- Authorising requests with FilterSecurityInterceptor
-- SpEL-based access control
-- Method-level authorisation
-- Testing a secure Spring web application
-
-## Spring Boot
+## Minimising Configuration with Spring Boot
 
 [Recommended reading](content/recommended-reading.md#spring-boot)
 
-- What is Spring Boot?
-- Spring Boot features
-- Getting started
+- Spring Boot: what and why
 - Starter dependencies
 - Auto-configuration
-- Overriding auto-configuration
-- Using the ApplicationRunner/CommandLineRunner
-- Spring Boot Actuator
-- Testing a Spring Boot application
+- Spring Boot annotations
+- Creating a simple Spring Boot app
+- Configuration properties
+- Executing code on startup using CommandLineRunner
+
+## Data Persistence with Spring Data JPA
+
+[Recommended reading](content/recommended-reading.md#spring-data-jpa)
+
+- ORM, JPA, and Hibernate
+- Entity mapping
+- Spring Data Repositories
+- Persisting entities
+- Writing query methods
+- Transactionality
+- Configuring Spring Data JPA with Spring/Spring Boot
+
+## Web Apps with Spring Web MVC
+
+[Recommended reading](content/recommended-reading.md#spring-web-mvc)
+
+- The DispatcherServlet
+- Request processing
+- Building a controller
+- Handler method parameters
+- Configuring Spring Web MVC with Spring/Spring Boot
+
+## REST APIs with Spring Web MVC
+
+- About REST APIs
+- Enabling and modifying the MVC Configuration
+- @ResponseBody, message conversion, and @RestController
+- Content negotiation
+- @RequestBody and validation
+- @ResponseStatus and exception handling
+
+## Securing an App with Spring Security
+
+[Recommended reading](content/recommended-reading.md#securing-an-app-with-spring-security)
+
+- The big picture
+- Architecture components
+- Configuring custom authentication
+- Configuring authorisation for access to endpoints
+- Configuring authorisation at the method level
+- Configuring Spring Security with Spring/Spring Boot
+
+## Spring Boot Actuator
+
+[Recommended reading](content/recommended-reading.md#spring-boot-actuator)
+
+- About the actuator
+- Exposing endpoints
+- Writing custom endpoints
+- Health indicators
+- Writing custom health indicators
+- Monitoring and management

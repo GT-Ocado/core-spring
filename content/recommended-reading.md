@@ -268,6 +268,29 @@
             <td><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#transactions">Transactionality</a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="10"></a>Web Apps with Spring Web MVC</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-servlet">Dispatcher Servlet (1.1-1.1.8)</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-controller">Annotated Controllers (all)</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/spring-mvc-tutorial">Spring MVC Tutorial</a></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

@@ -110,7 +110,7 @@
 
 ## Web Apps with Spring Web MVC
 
-[Recommended reading](content/recommended-reading.md#spring-web-mvc)
+[Recommended reading](content/recommended-reading.md#10)
 
 - The DispatcherServlet
 - Request processing

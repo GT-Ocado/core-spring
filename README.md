@@ -86,7 +86,7 @@
 
 ## Minimising Configuration with Spring Boot
 
-[Recommended reading](content/recommended-reading.md#spring-boot)
+[Recommended reading](content/recommended-reading.md#8)
 
 - Spring Boot: what and why
 - Starter dependencies

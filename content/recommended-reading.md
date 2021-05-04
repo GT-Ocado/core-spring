@@ -194,6 +194,45 @@
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#jdbc-JdbcTemplate">Using <code>JdbcTemplate</code></a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="8"></a>Minimising Configuration with Spring Boot</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-started-introducing-spring-boot">Introducing Spring Boot</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter">Starters</a></td>
+            <td><a href="https://www.baeldung.com/spring-boot-starters">Intro to Spring Boot Starters</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-auto-configuration">Auto-configuration</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/spring-boot-annotations">Spring Boot Annotations</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-started-first-application">Developing Your First Spring Boot Application</a></td>
+            <td><a href="https://www.baeldung.com/spring-boot-start">Bootstrap a Simple Application</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config-typesafe-configuration-properties">Type-safe Configuration Properties</a></td>
+            <td><a href="https://www.baeldung.com/configuration-properties-in-spring-boot"><code>@ConfigurationProperties</code> in Spring Boot</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-command-line-runner">Using the <code>ApplicationRunner</code> or <code>CommandLineRunner</code></a></td>
+            <td></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

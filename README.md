@@ -59,7 +59,7 @@
 
 ## Testing
 
-[Recommended reading](content/recommended-reading.md#testing)
+[Recommended reading](content/recommended-reading.md#5)
 
 - Spring integration testing with JUnit
 - Loading and configuring the container

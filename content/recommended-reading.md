@@ -117,6 +117,33 @@
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#aop-advice">Declaring Advice</a></td>
             <td><a href="https://www.baeldung.com/spring-aop-advice-tutorial">Introduction to Advice Types in Spring</a></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="5"></a>Testing</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#integration-testing-overview">Integration Testing Overview</a></td>
+            <td><a href="https://www.baeldung.com/integration-testing-in-spring">Integration Testing in Spring</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#spring-testing-annotation-contextconfiguration"><code>@ContextConfiguration</code></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#spring-testing-annotation-activeprofiles"><code>@ActiveProfiles</code></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#spring-testing-annotation-dirtiescontext"><code>@DirtiesContext</code></a></td>
+            <td></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

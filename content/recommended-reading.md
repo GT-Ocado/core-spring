@@ -6,10 +6,17 @@
 
 ## Introduction to Spring and Inversion of Control
 
+<table width="100%">
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+</table>
+
 
 |Reference |Other|
 |----------|-----|
-| [What We mean by "Spring"](https://docs.spring.io/spring-framework/docs/current/reference/html/overview.html#overview-spring) |[Why Choose Spring as Your Java Framework](https://www.baeldung.com/spring-why-to-choose)|
+|[What We Mean by "Spring"](https://docs.spring.io/spring-framework/docs/current/reference/html/overview.html#overview-spring)|[Why Choose Spring as Your Java Framework](https://www.baeldung.com/spring-why-to-choose)|
 |[Introduction to the Spring IoC Container and Beans](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-introduction)|[Intro to Inversion of Control and Dependency Injection with Spring](https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring)|
 |[Java-based Container Configuration](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java)||
 

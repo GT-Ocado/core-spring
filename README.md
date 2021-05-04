@@ -39,7 +39,7 @@
 
 ## More Container Configuration
 
-[Recommended reading](content/recommended-reading.md#more-container-configuration)
+[Recommended reading](content/recommended-reading.md#3)
 
 - Acting on a bean's lifecycle events
 - Specifying the scope of a bean

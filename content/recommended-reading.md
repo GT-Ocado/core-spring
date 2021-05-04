@@ -41,7 +41,7 @@
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation">Using <code>@Autowired</code></a></td>
-            <td>Ditto</td>
+            <td></td>
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation-primary">Fine-tuning Annotation-based Autowiring with @Primary</a></td>
@@ -50,6 +50,41 @@
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation-qualifiers">Fine-tuning Annotation-based Autowiring with Qualifiers</a></td>
             <td><a href="https://www.baeldung.com/spring-qualifier-annotation">Spring <code>@Qualifier</code>Annotation</a></td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="3"></a>More Container Configuration</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-factory-lifecycle">Lifecycle Callbacks</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-factory-scopes">Bean Scopes</td>
+            <td><a href="https://www.baeldung.com/spring-bean-scopes">Quick Guide to Spring Bean Scopes</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java-composing-configuration-classes">Composing Java-based Configurations</td>
+            <td><a href="https://www.baeldung.com/spring-import-annotation">Spring <code>@Import</code> Annotation</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-definition-profiles">Bean Definition Profiles</a></td>
+            <td><a href="https://www.baeldung.com/spring-profiles">Spring Profiles</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-using-propertysource">Using <code>@PropertySource</code></a></td> 
+            <td><a href="https://www.baeldung.com/properties-with-spring">Properties with Spring and Spring Boot</td> 
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-environment">Environment Abstraction</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions">Spring Expression Language (SpEL)</a></td>
+            <td><a href="https://www.baeldung.com/spring-expression-language">Spring Expression Language Guide</td>
         </tr>
 </table>
 

@@ -29,7 +29,7 @@
 
 ## Annotation-based Container Configuration and Dependency Injection
 
-[Recommended reading](content/recommended-reading.md#annotation-based-container-configuration-and-dependency-injection)
+[Recommended reading](content/recommended-reading.md#2)
 
 - Classpath scanning and managed components 
 - Dependency injection

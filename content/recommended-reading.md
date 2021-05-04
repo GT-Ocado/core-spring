@@ -94,6 +94,29 @@
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions">Spring Expression Language (SpEL)</a></td>
             <td><a href="https://www.baeldung.com/spring-expression-language">Spring Expression Language Guide</td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="4"></a>Aspect Oriented Programming</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#aop">Aspect Oriented Programming with Spring (5.1, 5.3, 5.4)</a></td>
+            <td><a href="https://www.baeldung.com/spring-aop">Introduction to Spring AOP</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#aop-pointcuts">Declaring a Pointcut</a></td>
+            <td><a href="https://www.baeldung.com/spring-aop-pointcut-tutorial">Introduction to Pointcut Expressions in Spring</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#aop-advice">Declaring Advice</a></td>
+            <td><a href="https://www.baeldung.com/spring-aop-advice-tutorial">Introduction to Advice Types in Spring</a></td>
+        </tr>
 </table>
 
 ## Container Configuration

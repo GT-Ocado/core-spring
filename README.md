@@ -51,7 +51,7 @@
 
 ## Aspect Oriented Programming
 
-[Recommended reading](content/recommended-reading.md#aop)
+[Recommended reading](content/recommended-reading.md#4)
 
 - About AOP and proxying
 - Constructing pointcut expressions

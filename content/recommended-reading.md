@@ -4,13 +4,18 @@
 
 [<< back](../README.md)
 
-## Introduction to Spring and Inversion of Control
-
-<table width="100%">
+<table>
         <tr>
-            <td>Cell 1</td>
-            <td>Cell 2</td>
+            <th colspan="2"><a href="#1"></a>Introduction to Spring and Inversion of Control</th>
         </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/overview.html#overview-spring">What We Mean by "Spring"</a></td>
+            <td><a href="https://www.baeldung.com/spring-why-to-choose">Why Choose Spring as Your Java Framework</a></td>
+        </td>
 </table>
 
 

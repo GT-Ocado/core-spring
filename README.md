@@ -18,7 +18,7 @@
 
 ## Introduction to Spring and Inversion of Control
 
-[Recommended reading](content/recommended-reading.md#introduction-to-spring-and-inversion-of-control)
+[Recommended reading](content/recommended-reading.md#1)
 
 - About Spring
 - Inversion of Control

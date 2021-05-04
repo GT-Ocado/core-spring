@@ -168,7 +168,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-decl-vs-prog">Choosing Between Programmatic and Declarative Transaction Management</a></td>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-decl-vs-prog">Choosing Between Programmatic and Declarative...</a></td>
             <td></td>
         </tr>
 </table>

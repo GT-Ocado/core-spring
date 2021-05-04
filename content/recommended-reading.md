@@ -233,6 +233,41 @@
             <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-command-line-runner">Using the <code>ApplicationRunner</code> or <code>CommandLineRunner</code></a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="9"></a>Data Persistence with Spring Data JPA</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/learn-jpa-hibernate">Learn JPA & Hibernate</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/jpa-entities">Defining JPA Entities</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories">Working with Spring Data Repositories (4.1-5)</a></td>
+            <td><a href="https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa">Introduction to Spring Data JPA</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.entity-persistence.saving-entites">Saving Entites</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation">Query Creation</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#transactions">Transactionality</a></td>
+            <td></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

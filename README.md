@@ -98,7 +98,7 @@
 
 ## Data Persistence with Spring Data JPA
 
-[Recommended reading](content/recommended-reading.md#spring-data-jpa)
+[Recommended reading](content/recommended-reading.md#9)
 
 - ORM, JPA, and Hibernate
 - Entity mapping

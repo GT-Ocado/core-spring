@@ -78,7 +78,7 @@
 
 ## Accessing Data and JDBC
 
-[Recommended reading](content/recommended-reading.md#accessing-data-and-jdbc)
+[Recommended reading](content/recommended-reading.md#7)
 
 - Exception translation
 - Annotating DAOs with @Repository

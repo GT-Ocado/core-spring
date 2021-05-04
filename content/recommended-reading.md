@@ -171,6 +171,29 @@
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#tx-decl-vs-prog">Choosing Between Programmatic and Declarative Transaction Management</a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="7"></a>Accessing Data and JDBC</th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#orm-exception-translation">Exception Translation</a></td>
+            <td><a href="https://www.baeldung.com/spring-jdbc-jdbctemplate">Spring JDBC</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#dao-annotations">Annotations Used to Configure DAO or Repository Classes</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#jdbc-JdbcTemplate">Using <code>JdbcTemplate</code></a></td>
+            <td></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

@@ -68,7 +68,7 @@
 
 ## Transaction Management
 
-[Recommended reading](content/recommended-reading.md#transaction-management)
+[Recommended reading](content/recommended-reading.md#6)
 
 - Spring's transaction abstraction
 - Configuring the data source and transaction manager

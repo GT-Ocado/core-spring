@@ -25,6 +25,10 @@
             <td></td>
         </tr>
         <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
             <th colspan="2"><a name="2"></a>Annotation-based Container Configuration and Dependency Injection</th>
         </tr>
         <tr>
@@ -50,6 +54,10 @@
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation-qualifiers">Fine-tuning Annotation-based Autowiring with Qualifiers</a></td>
             <td><a href="https://www.baeldung.com/spring-qualifier-annotation">Spring <code>@Qualifier</code>Annotation</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <th colspan="2"><a name="3"></a>More Container Configuration</th>

@@ -18,7 +18,7 @@
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-introduction">Introduction to the Spring IoC Container and Beans</a></td>
-            <td><a href="https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring">Intro to Inversion of Control and Dependency Injection with Spring</a></td>
+            <td><a href="https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring">Intro to IoC and DI with Spring</a></td>
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-java">Java-based Container Configuration</a></td>
@@ -41,7 +41,7 @@
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-factory-collaborators">Dependency Injection</a></td>
-            <td><a href="https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring">Intro to Inversion of Control and Dependency Injection with Spring</a></td>
+            <td><a href="https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring">Intro to IoC and DI with Spring</a></td>
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation">Using <code>@Autowired</code></a></td>

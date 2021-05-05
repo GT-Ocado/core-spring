@@ -43,7 +43,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="2"></a><h2>Annotation-based Container Configuration and Dependency Injection</h2></th>
+            <th colspan="2"><a name="2"><h2>Annotation-based Container Configuration and Dependency Injection</h2></a></th>
         </tr>
         <tr>
             <td>Reference</td>

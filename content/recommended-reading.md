@@ -20,7 +20,7 @@
 
 <table>
         <tr>
-            <th colspan="2"><a name="1"></a>Introduction to Spring and Inversion of Control</th>
+            <th colspan="2"><a name="1"></a><h2>Introduction to Spring and Inversion of Control</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -43,7 +43,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="2"></a>Annotation-based Container Configuration and Dependency Injection</th>
+            <th colspan="2"><a name="2"></a><h2>Annotation-based Container Configuration and Dependency Injection</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -74,7 +74,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="3"></a>More Container Configuration</th>
+            <th colspan="2"><a name="3"></a><h2>More Container Configuration</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -113,7 +113,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="4"></a>Aspect Oriented Programming</th>
+            <th colspan="2"><a name="4"></a><h2>Aspect Oriented Programming</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -136,7 +136,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="5"></a>Testing</th>
+            <th colspan="2"><a name="5"></a><h2>Testing</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -163,7 +163,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="6"></a>Transaction Management</th>
+            <th colspan="2"><a name="6"></a><h2>Transaction Management</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -190,7 +190,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="7"></a>Accessing Data and JDBC</th>
+            <th colspan="2"><a name="7"></a><h2>Accessing Data and JDBC</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -213,7 +213,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="8"></a>Minimising Configuration with Spring Boot</th>
+            <th colspan="2"><a name="8"></a><h2>Minimising Configuration with Spring Boot</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -252,7 +252,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="9"></a>Data Persistence with Spring Data JPA</th>
+            <th colspan="2"><a name="9"></a><h2>Data Persistence with Spring Data JPA</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -287,7 +287,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="10"></a>Web Apps with Spring Web MVC</th>
+            <th colspan="2"><a name="10"></a><h2>Web Apps with Spring Web MVC</h2></th>
         </tr>
         <tr>
             <td>Reference</td>

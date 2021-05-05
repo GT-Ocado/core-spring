@@ -142,7 +142,7 @@
 
 ## Monitoring and Management with Spring Boot Actuator
 
-[Recommended reading](content/recommended-reading.md#monitoring-and-management-with-spring-boot-actuator)
+[Recommended reading](content/recommended-reading.md#13)
 
 - About the actuator
 - Exposing endpoints

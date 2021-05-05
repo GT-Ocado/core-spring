@@ -387,6 +387,45 @@
             <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#jc-httpsecurity"><code>HttpSecurity</code></a></td>
             <td></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="13"></a><h2>Monitoring and Management with Spring Boot Actuator</h2></th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready">Spring Boot Actuator: Production-ready Features</a></td>
+            <td><a href="https://www.baeldung.com/spring-boot-actuators">Spring Boot Actuator</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints-exposing-endpoints">Exposing Endpoints</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints-custom">Implementing Custom Endpoints</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-metrics">Metrics (all)</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-health">Health Information</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-monitoring">Monitoring and Management over HTTP</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-jmx">Monitoring and Management over JMX</a></td>
+            <td></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

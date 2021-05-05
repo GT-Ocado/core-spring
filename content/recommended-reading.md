@@ -43,7 +43,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th colspan="2"><a name="2"><h2>Annotation-based Container Configuration and Dependency Injection</h2></a></th>
+            <th colspan="2"><a name="2"></a><h2>Annotation-based Container Configuration and Dependency Injection</h2></th>
         </tr>
         <tr>
             <td>Reference</td>
@@ -304,6 +304,49 @@
         <tr>
             <td></td>
             <td><a href="https://www.baeldung.com/spring-mvc-tutorial">Spring MVC Tutorial</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="11"></a><h2>REST APIs with Spring Web MVC</h2></th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/building-a-restful-web-service-with-spring-and-java-based-configuration">Building a REST API with Spring and Java Config</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-config">MVC Config (1.11, 1.11.1, 1.11.2, 1.11.7)</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-ann-requestbody"><code>@RequestBody</code></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/spring-controller-vs-restcontroller">The Spring <code>@Controller</code> and <code>@RestController</code> Annotations</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-multiple-representations">Content Negotiation</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-ann-requestbody"><code>@RequestBody</code></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/spring-response-status">Using Spring <code>@ResponseStatus</code> to Set HTTP Status Code</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-ann-exceptionhandler">Exceptions</a></td>
+            <td><a href="https://www.baeldung.com/exception-handling-for-rest-with-spring">Error Handling for REST with Spring</a></td>
         </tr>
 </table>
 

@@ -120,6 +120,8 @@
 
 ## REST APIs with Spring Web MVC
 
+[Recommended reading](content/recommended-reading.md#11)
+
 - About REST APIs
 - Enabling and modifying the MVC Configuration
 - @ResponseBody, message conversion, and @RestController

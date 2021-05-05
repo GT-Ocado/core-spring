@@ -348,6 +348,45 @@
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-ann-exceptionhandler">Exceptions</a></td>
             <td><a href="https://www.baeldung.com/exception-handling-for-rest-with-spring">Error Handling for REST with Spring</a></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2"><a name="12"></a><h2>Securing an App with Spring Security</h2></th>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td>Other</td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-architecture">Servlet Security: The Big Picture (all)</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://www.baeldung.com/spring-security-basic-authentication">Spring Security Basic Authentication</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication">Authentication</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-authentication-userdetailsservice"><code>UserDetailsService</code></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#el-access">Expression-based Access Control (11.3-11.3.2)</a></td>
+            <td><a href="https://www.baeldung.com/spring-security-expressions">Intro to Spring Security Expressions</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#method-security-expressions">Method Security Expressions</a></td>
+            <td><a href="https://www.baeldung.com/spring-security-method-security">Introduction to Spring Method Security</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.spring.io/spring-security/site/docs/current/reference/html5/#jc-httpsecurity"><code>HttpSecurity</code></a></td>
+            <td></td>
+        </tr>
 </table>
 
 [<< back](../README.md)

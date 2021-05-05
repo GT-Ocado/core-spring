@@ -131,7 +131,7 @@
 
 ## Securing an App with Spring Security
 
-[Recommended reading](content/recommended-reading.md#securing-an-app-with-spring-security)
+[Recommended reading](content/recommended-reading.md#12)
 
 - The big picture
 - Architecture components

@@ -62,8 +62,8 @@
             <td></td>
         </tr>
         <tr>
-            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation-primary">Fine-tuning Annotation-based Autowiring with @Primary</a></td>
-            <td><a href="https://www.baeldung.com/spring-primary">Spring `@Primary` Annotation</a></td>
+            <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation-primary">Fine-tuning Annotation-based Autowiring with <code>@Primary</code></a></td>
+            <td><a href="https://www.baeldung.com/spring-primary">Spring <code>@Primary</code> Annotation</a></td>
         </tr>
         <tr>
             <td><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-autowired-annotation-qualifiers">Fine-tuning Annotation-based Autowiring with Qualifiers</a></td>
